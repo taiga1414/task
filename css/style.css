@@ -1,0 +1,27 @@
+header {
+  background-color: deepskyblue;
+  padding: 30px;
+}
+body {
+  background-color: lightcyan;
+}
+table {
+  margin: auto;
+  text-align: center;
+}
+.content {
+  float: right;
+  width: 300px;
+  background-color: yellowgreen;
+}
+.test h3 {
+  text-align: center;
+}
+footer {
+  text-align: center;
+  background-color: lawngreen;
+  padding: 20px;
+}
+.aaa {
+  border: 1px solid;
+}
