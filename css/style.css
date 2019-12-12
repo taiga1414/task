@@ -5,20 +5,22 @@ header {
 body {
   background-color: lightcyan;
 }
+.aaa th,td {
+  border: solid 1px;
+}
 table {
   margin: auto;
   text-align: center;
 }
-.content {
-  float: right;
-  width: 300px;
-  background-color: yellowgreen;
-}
 .test h3 {
   text-align: center;
 }
-footer {
-  text-align: center;
+.content {
+  float: right;
+  background-color: yellowgreen;
+  }
+  footer {
+    text-align: center;
   background-color: lawngreen;
   padding: 20px;
-}
+  }
