@@ -5,15 +5,20 @@ header {
 body {
   background-color: lightcyan;
 }
-.aaa th,td {
+.sample table {
+  margin: auto;
+}
+.sample th,td {
   border: solid 1px;
 }
-table {
-  margin: auto;
+.img {
+  float: left;
+}
+.ccc {
   text-align: center;
 }
-.test h3 {
-  text-align: center;
+.test table {
+  float: left;
 }
 .content {
   float: right;
@@ -23,4 +28,5 @@ table {
     text-align: center;
   background-color: lawngreen;
   padding: 20px;
+  clear: left;
   }
