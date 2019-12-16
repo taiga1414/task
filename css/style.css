@@ -7,9 +7,12 @@ body {
 }
 .sample table {
   margin: auto;
+  width: 700px;
+  border-collapse: collapse;
 }
 .sample th,td {
   border: solid 1px;
+  text-align: center;
 }
 .img {
   float: left;
