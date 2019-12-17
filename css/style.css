@@ -5,9 +5,13 @@ header {
 body {
   background-color: lightcyan;
 }
-.sample table {
-  margin: auto;
-  width: 700px;
+main {
+  float: left;
+  width: 600px;
+}
+.sample {
+  margin-left: 80px;
+  width: 900px;
   border-collapse: collapse;
 }
 .sample th,td {
@@ -17,15 +21,11 @@ body {
 .img {
   float: left;
 }
-.ccc {
-  text-align: center;
-}
-.test table {
-  float: left;
-}
-.content {
+.sidebar{
   float: right;
-  background-color: yellowgreen;
+  background-color: aliceblue;
+  width: 400px;
+  padding-bottom: 180px;
   }
   footer {
     text-align: center;
