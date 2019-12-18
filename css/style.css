@@ -5,6 +5,9 @@ header {
 body {
   background-color: lightcyan;
 }
+.container {
+  overflow: hidden;
+}
 main {
   float: left;
   width: 600px;
@@ -21,11 +24,12 @@ main {
 .img {
   float: left;
 }
-.sidebar{
+.sidebar {
   float: right;
   background-color: aliceblue;
   width: 400px;
-  padding-bottom: 180px;
+  padding-bottom: 100000px;
+  margin-bottom: -100000px;
   }
   footer {
     text-align: center;
