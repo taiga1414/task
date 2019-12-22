@@ -1,38 +1,61 @@
 header {
   background-color: deepskyblue;
-  padding: 30px;
+  padding: 50px; 
 }
+
 body {
   background-color: lightcyan;
+  margin: 0;
 }
+
 .container {
   overflow: hidden;
 }
-main {
+
+.main {
   float: left;
-  width: 600px;
+  width: 80%;
 }
+
 .sample {
   margin-left: 80px;
   width: 900px;
   border-collapse: collapse;
 }
-.sample th,td {
+
+.sample th,.sample td {
   border: solid 1px;
   text-align: center;
 }
+
 .img {
+  width: 30%;
   float: left;
 }
+
+img {
+  width: 100%;
+}
+
+.ccc {
+  margin-left: 100px;
+}
+
+.test {
+  width: 70%;
+  text-align: center;
+}
+
 .sidebar {
   float: right;
-  background-color: aliceblue;
-  width: 400px;
+  background-color: cornsilk;
+  width: 20%;
   padding-bottom: 100000px;
   margin-bottom: -100000px;
   }
+
   footer {
-    text-align: center;
+  text-align: center;
   background-color: lawngreen;
   padding: 20px;
   clear: left;
