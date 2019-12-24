@@ -2,6 +2,11 @@ header {
   background-color: deepskyblue;
   padding: 50px; 
 }
+/* メイン */
+.main {
+  width: 80%;
+  float: left;
+}
 
 body {
   background-color: lightcyan;
@@ -10,11 +15,6 @@ body {
 
 .container {
   overflow: hidden;
-}
-
-.main {
-  float: left;
-  width: 80%;
 }
 
 .sample {
@@ -27,25 +27,27 @@ body {
   border: solid 1px;
   text-align: center;
 }
-
+/* 画像 */
 .img {
   width: 30%;
   float: left;
 }
-
+/* 画像 */
 img {
   width: 100%;
 }
 
 .ccc {
-  margin-left: 100px;
+  text-align: center;
+  padding-right: 100px;
 }
 
 .test {
   width: 70%;
   text-align: center;
+  margin: auto;
 }
-
+/* サイドバー */
 .sidebar {
   float: right;
   background-color: cornsilk;
@@ -53,7 +55,7 @@ img {
   padding-bottom: 100000px;
   margin-bottom: -100000px;
   }
-
+/* フッター */
   footer {
   text-align: center;
   background-color: lawngreen;
